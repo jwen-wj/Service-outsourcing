@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+ *{ padding:0; margin:0; list-style:none; border:0;}
+
+.container
+{
+	
+	margin:0px auto;
+	width:100%;
+}
+.select
+{
+	float:right;
+	margin-top: 15px;
+}
+.nav ul
+{
+	list-style: none;
+	background:#A2AAFC;
+	margin: 0px;
+	padding: 0px;
+	 width:100%;
+}
+.nav ul li
+{
+	text-align: center;
+	line-height: 40px;
+	display: inline;
+	float:left;
+	background:#A2AAFC;
+	font-size: 18px;
+	width: 178px;
+	height: 40px;	
+} 
+.nav ul li a
+{
+	color:#000000;
+	text-decoration: none;
+	display: block;
+}
+.nav ul li a:hover
+{
+	color: #F3080C;
+	background:#1412F7;
+	text-decoration: none;
+}
+        .center{
+            width:500px;
+            height:300px;
+            padding:7px;
+            border:1px solid #ccc;
+            margin:100px auto;
+            position:relative;
+			float:center;
+        }
+        .screen{
+            width:500px;
+            height:300px;
+            overflow:hidden;
+            position:relative;
+        }
+        .screen li{ width:500px; height:300px; overflow:hidden; float:left;}
+        .screen ul{ position:absolute; left:0; top:0px; width:3000px;}
+        .center ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
+        .center ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
+        .center ol li.current{ background:yellow;}
+ 
+        #arr {display: none;}
+        #arr span{ width:40px; height:40px; position:absolute; left:5px; top:50%; margin-top:-20px; background:#000; cursor:pointer; line-height:40px; text-align:center; font-weight:bold; font-family:'黑体'; font-size:30px; color:#fff; opacity:0.3; border:1px solid #fff;}
+        #arr #right{right:5px; left:auto;}
+
