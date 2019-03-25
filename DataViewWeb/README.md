@@ -17,15 +17,15 @@
 
 ## 图示
 
-**整体数据显示**  
+    整体数据显示  
 ![](https://github.com/Cynicicm/Service-outsourcing/blob/master/DataViewWeb/Image/%E6%95%B4%E4%BD%93%E6%95%B0%E6%8D%AE%E6%98%BE%E7%A4%BA.png)  
 
 
-**单一数据查询**  
+    单一数据查询  
 ![](https://github.com/Cynicicm/Service-outsourcing/blob/master/DataViewWeb/Image/%E5%8D%95%E4%B8%80%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2.png)  
 
 
-**批次数据查询**  
+    批次数据查询    
 ![](https://github.com/Cynicicm/Service-outsourcing/blob/master/DataViewWeb/Image/%E6%89%B9%E6%AC%A1%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2.png)  
 
 ## 开发人员  
