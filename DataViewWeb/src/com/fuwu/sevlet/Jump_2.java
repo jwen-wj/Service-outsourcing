@@ -37,7 +37,7 @@ public class Jump_2 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		int page=Integer.parseInt(request.getParameter("jump2").toString())-1;
-		if(page>0){
+		if(page>=0){
 			HttpSession session=request.getSession();
 			String s;
 			if(session.getAttribute("page")==null){

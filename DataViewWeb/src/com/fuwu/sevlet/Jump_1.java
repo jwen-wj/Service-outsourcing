@@ -45,7 +45,7 @@ public class Jump_1 extends HttpServlet {
 		// TODO Auto-generated method stub
 		//System.out.println(request.getParameter("jump1"));
 		int page=Integer.parseInt(request.getParameter("jump1").toString())-1;
-		if(page>0){
+		if(page>=0){
 			HttpSession session=request.getSession();
 			String s;
 			if(session.getAttribute("num")==null){

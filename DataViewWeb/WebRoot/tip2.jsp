@@ -64,7 +64,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="col-md-10">
 		    <div class="breadcrumb" style="height:50px">
 		    	<ul class="breadcrumb">
-		    		<li><span class="glyphicon glyphicon-home"></span>   &nbsp;&nbsp; DATA</li>
+		    		<li><span class="glyphicon glyphicon-home"></span>   &nbsp;&nbsp;网络零售平台商品分类</li>
 		    		
 		    	</ul>
 		    </div>
