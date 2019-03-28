@@ -58,7 +58,7 @@
 
 #### CNN的大致结构:
 
-![](https://github.com/Cynicicm/Service-outsourcing/blob/master/DataViewWeb/Image/%E6%95%B4%E4%BD%93%E6%95%B0%E6%8D%AE%E6%98%BE%E7%A4%BA.png)  
+![](https://github.com/Cynicicm/Service-outsourcing/blob/master/Image/CNN%E7%BB%93%E6%9E%84.png)  
 
 #### CNN配置参数
 
