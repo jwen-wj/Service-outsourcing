@@ -67,22 +67,22 @@ class TCNNConfig(object):
     """CNN配置参数"""
 
     # 模型参数
-    embedding_dim =128	     # 词向量维度
-    seq_length =40	         # 序列长度
-    num_classes=1199	       # 类别数
-    num_filters=128	         # 卷积核数目
-    filter_sizes=3,4,5	     # 卷积核尺寸
-    vocab_size=160000	       # 词汇表大小
+    embedding_dim = 128	     # 词向量维度
+    seq_length = 40	         # 序列长度
+    num_classes = 1199	       # 类别数
+    num_filters = 128	         # 卷积核数目
+    filter_sizes = 3,4,5	     # 卷积核尺寸
+    vocab_size = 160000	       # 词汇表大小
     
-    fc_hidden_size=1024	     # 全连接层神经元
-    dropout_keep_prob=0.5	   # 防止过拟合
+    fc_hidden_size = 1024	     # 全连接层神经元
+    dropout_keep_prob = 0.5	   # 防止过拟合
     
     dropout	                 # 保留比例
-    learning_rate=0.001	     # 学习率
+    learning_rate = 0.001	     # 学习率
     
-    batch_size=256	         # 每批训练大小
-    num_epochs=40	           # 总迭代轮次
-    evaluate_every=800	     # 每多少步进行一次验证
+    batch_size = 256	         # 每批训练大小
+    num_epochs = 40	           # 总迭代轮次
+    evaluate_every = 800	     # 每多少步进行一次验证
 ```
 
 ### 参数变化过程
