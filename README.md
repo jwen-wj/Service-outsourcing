@@ -60,7 +60,7 @@
 
 ### CNN配置参数
 
-CNN可配置的参数如下所示，在`train.py`中。
+CNN可配置的参数如下所示，在`train_cnn.py`中。
 
 ```python
 class TCNNConfig(object):
