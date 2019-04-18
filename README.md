@@ -109,6 +109,7 @@ class TCNNConfig(object):
 >3）False negatives(FN):被错误地划分为负例的个数，即实际为正例但被分类器划分为负例的实例数；  
 >4）True negatives(TN): 被正确地划分为负例的个数，即实际为负例且被分类器划分为负例的实例数。　　  
 
+![](https://github.com/Cynicicm/Service-outsourcing/blob/master/Image/%E6%9C%AF%E8%AF%AD%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5.png)
 ```
     首先有关TP、TN、FP、FN的概念。大体来看，TP与TN都是分对了情况，TP是正类，TN是负类。
 则推断出，FP是把错的分成了对的，而FN则是把对的分成了错的。
