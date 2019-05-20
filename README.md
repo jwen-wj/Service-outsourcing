@@ -22,7 +22,9 @@
 
 ## 数据集
 
-数据集请自行下载：链接: https://pan.baidu.com/s/1Fw9Zb9gV3Y6GaloOSne6hQ 提取码: r1p0
+数据集请自行下载： https://pan.baidu.com/s/1Fw9Zb9gV3Y6GaloOSne6hQ 提取码: r1p0
+
+训练结果模型地址：https://pan.baidu.com/s/1hZSDZmBfbA04E_NKfm0taA 提取码：wznj
 
 通过比对模型的训练的结果，最终采取训练集：验证集为 **19:1** .
 
