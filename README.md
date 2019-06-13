@@ -147,7 +147,7 @@ class TCNNConfig(object):
     data_helper.py   包含数据预处理函数，以及对文件的操作函数都在里面
     predict_cnn.py   提供模型的预测
     textCNN.py       CNN模型
-    train.cnn.py     训练模型
+    train_cnn.py     训练模型
 ```
 **运行步骤：**
 > 每次更改训练集需要重新运行步骤1,2再进行预测
