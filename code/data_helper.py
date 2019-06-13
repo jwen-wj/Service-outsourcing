@@ -23,8 +23,8 @@ class TextConfig():
     pre_trianing = None  # use vector_char trained by word2vec
 
     seq_length = 40  # max length of sentence
-    vector_word_filename = './OriginData/vector_word.txt'
-    vector_word_npz = './OriginData/vector_word.npz'
+    # vector_word_filename = './OriginData/vector_word.txt'
+    # vector_word_npz = './OriginData/vector_word.npz'
 
 
 
@@ -125,7 +125,7 @@ def Build_Dict_Third_Key_To_Label_Value():
 
 def Get_Val_Data_From_TrainData():
     '''
-    因为给的数据只有训练集和测试集，所以需要从训练集中分出部分数据作为验证集
+    因为给的数据只有训练集和测试集，所以需要从训练集中分出部·分数据作为验证集
     '''
 
     content,labels = Get_Content_Label(TextConfig.handldData)
@@ -139,7 +139,7 @@ def Get_Val_Data_From_TrainData():
         oneLabelCount = 0
         for oneLabel in labels:
             if(oneLabel != tempLabel):
-                getCount = int(oneLabelCount*0.05)
+                getCount = int(oneLabelCount*0.1)
                 getCount = 1 if getCount < 1 else getCount
                 for i in range(start,start+getCount):
                     write.writerow([' '.join(ClearUselessWord(str(content[i]))),str(labels[i])])
@@ -625,11 +625,9 @@ def Find_Same_From_Train_Predict(origin,predict):
 if __name__ == '__main__':
 
     #HandleOriginData(TextConfig.originTrainData,TextConfig.handldData)
-    handFileProblem()
-    #Save_Third_To_Label()
-    #Get_Val_Data_From_TrainData()
-    #fileNames = [TextConfig.trainFileCsv,TextConfig.val_filename]
-    #build_vocab(fileNames,TextConfig.vocab_filename)
+    Get_Val_Data_From_TrainData()
+    fileNames = [TextConfig.trainFileCsv,TextConfig.val_filename]
+    build_vocab(fileNames,TextConfig.vocab_filename)
     #Get_Save_CategoryFromOriginData()
     print("data_helper完成")
 
