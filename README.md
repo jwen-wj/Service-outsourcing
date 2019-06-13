@@ -153,7 +153,7 @@ class TCNNConfig(object):
 > 每次更改训练集需要重新运行步骤1,2再进行预测
 ```
     1.运行data_helper.py 构造词汇表，获得数据分类
-    2.运行train.cnn.py 进行模型的训练（在logs文件可以找到相关日志文件查看记录）
+    2.运行train_cnn.py 进行模型的训练（在logs文件可以找到相关日志文件查看记录）
     3.运行predict_cnn.py进行预测
 ```
 
